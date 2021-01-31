@@ -1,0 +1,30 @@
+Questionable use of curly braces in "b3 gm 0  v={sgn(v(plus,0))*(1/({{a}}*{{rs}})*(log(1+({{a}}*{{rs}}*({imax}*(v(lmax))+{imin}*(1-(v(lmax))))*exp({{a}}*(abs(v(plus,0))+{{rs}}*({imax}*(v(lmax))+{imin}*(1-(v(lmax))))))))*(1-(log(1+log(1+({{a}}*{{rs}}*({imax}*(v(lmax))+{imin}*(1-(v(lmax))))*exp({{a}}*(abs(v(plus,0))+{{rs}}*({imax}*(v(lmax))+{imin}*(1-(v(lmax))))))))))/(2+log(1+({{a}}*{{rs}}*({imax}*(v(lmax))+{imin}*(1-(v(lmax))))*exp({{a}}*(abs(v(plus,0))+{{rs}}*({imax}*(v(lmax))+{imin}*(1-(v(lmax)))))))))))-({imax}*(v(lmax))+{imin}*(1-(v(lmax)))))}"
+    Error: undefined symbol in: "sgn([v](plus,0))*(1/(((a))*((rs)))*(log(1+(((a))*((rs))*((imax)*(v(lmax))+(imin)*(1-(v(lmax))))*exp(((a))*(abs(v(plus,0))+((rs))*((imax)*(v(lmax))+(imin)*(1-(v(lmax))))))))*(1-(log(1+log(1+(((a))*((rs))*((imax)*(v(lmax))+(imin)*(1-(v(lmax))))*exp(((a))*(abs(v(plus,0))+((rs))*((imax)*(v(lmax))+(imin)*(1-(v(lmax))))))))))/(2+log(1+(((a))*((rs))*((imax)*(v(lmax))+(imin)*(1-(v(lmax))))*exp(((a))*(abs(v(plus,0))+((rs))*((imax)*(v(lmax))+(imin)*(1-(v(lmax)))))))))))-((imax)*(v(lmax))+(imin)*(1-(v(lmax)))))"
+Circuit: * C:\Users\54911\Dropbox\to_write\001- Nociceptor\pyspice\20210129_nociceptor.asc
+
+Limiting rise time of source v3 to 0.0001
+Limiting fall time of source v3 to 0.0001
+Limiting rise time of source v1 to 0.0001
+Limiting fall time of source v1 to 0.0001
+WARNING: Less than two connections to node N003.  This node is used by V2.
+WARNING: Less than two connections to node GP.  This node is used by B2.
+WARNING: Less than two connections to node GM.  This node is used by B3.
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Sat Jan 30 13:30:33 2021
+Total elapsed time: 0.965 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 130526
+traniter = 130526
+tranpoints = 30573
+accept = 23159
+rejected = 7414
+matrix size = 18
+fillins = 0
+solver = Normal
+Matrix Compiler1: 512 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.1
+
